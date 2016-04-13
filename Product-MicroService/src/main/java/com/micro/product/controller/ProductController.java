@@ -69,4 +69,8 @@ public class ProductController {
 		return new ResponseEntity<Product>(product, HttpStatus.OK);
 	}
 	
+	@RequestMapping(value="/")
+	String home(){
+		return "Hello Bwoy! Welcome to Product Service!!";
+	}
 }

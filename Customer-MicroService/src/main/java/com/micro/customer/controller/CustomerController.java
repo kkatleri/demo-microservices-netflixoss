@@ -71,7 +71,7 @@ public class CustomerController {
 	
 	@RequestMapping(value="/")
 	String home(){
-		return "Hello Bwoy!";
+		return "Hello Bwoy! Welcome to Customer Service!!";
 	}
 	
 }
